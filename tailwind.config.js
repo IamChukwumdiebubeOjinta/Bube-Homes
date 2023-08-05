@@ -14,8 +14,8 @@ module.exports = {
         "primary-500": "#4a60a1",
         "gray-white": "#fff",
         whitesmoke: {
-          "100": "#eaeaea",
-          "200": "#e7e9eb",
+          100: "#eaeaea",
+          200: "#e7e9eb",
         },
         gainsboro: "rgba(226, 226, 226, 0.1)",
         "primary-900": "#0f1320",
