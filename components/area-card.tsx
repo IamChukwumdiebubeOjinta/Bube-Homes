@@ -29,7 +29,7 @@ const AreaCard: NextPage<AreaCardType> = ({
   return (
     <Link
       className="cursor-pointer [text-decoration:none] flex-1 rounded-lg h-[15.06rem] flex flex-row items-start justify-start relative bg-[url(/card-1@3x.png)] bg-cover bg-no-repeat bg-[top] text-left text-[1.5rem] text-gray-white font-body-regular-600 md:flex-[unset] md:self-stretch"
-      href="/"
+      href="/properties-page"
       style={card11Style}
     >
       <div className="my-0 mx-[!important] absolute top-[16px] left-[16px] flex flex-col items-start justify-start gap-[0.69rem] z-[0]">

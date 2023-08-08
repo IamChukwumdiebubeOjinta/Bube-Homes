@@ -34,15 +34,8 @@ import Footer from "../components/footer";
 const PropertiesGridView: NextPage = () => {
   return (
     <>
-      <Head>
-        <title>Bube's Homes</title>
-        <meta
-          name="description"
-          content="Find Affordable Housing with Bube's Home"
-        />
-      </Head>
       <div className="relative bg-gray-white w-full flex flex-col items-start justify-start text-center text-[3.25rem] text-gray-white font-body-regular-400">
-        <Header hamburger={false} />
+        {/* <Header hamburger={false} /> */}
         <div className="self-stretch h-[15rem] flex flex-col items-center justify-center bg-[url(/category@3x.png)] bg-cover bg-no-repeat bg-[top]">
           <div className="flex flex-col items-center justify-start gap-[0.75rem]">
             <div className="relative leading-[72px] font-semibold">
@@ -141,14 +134,6 @@ const PropertiesGridView: NextPage = () => {
             </div>
           </div>
         </div>
-        <Footer
-          imageIds="/houseline1.svg"
-          smallImageIds="/social-media-logo.svg"
-          mediumImageIds="/social-media-logo1.svg"
-          smallImageIds2="/social-media-logo2.svg"
-          smallImageIds3="/social-media-logo3.svg"
-          largeImageIds="/social-media-logo4.svg"
-        />
       </div>
     </>
   );
