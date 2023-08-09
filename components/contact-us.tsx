@@ -8,11 +8,6 @@ const ContactUs: NextPage = () => {
           <div className="self-stretch relative leading-[48px] font-semibold">
             Contact us
           </div>
-          <div className="self-stretch relative text-[1.25rem] leading-[28px] text-lightslategray">
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia curae; Proin sodales ultrices nulla blandit
-            volutpat.
-          </div>
         </div>
         <div className="self-stretch rounded-xl bg-gray-white shadow-[0px_0px_24px_rgba(0,_0,_0,_0.03)] flex flex-col py-[1.75rem] px-[1.88rem] items-center justify-start gap-[1.06rem] text-left text-[1.5rem] text-darkslategray font-poppins">
           <div className="self-stretch flex flex-col items-center justify-start gap-[0.38rem]">

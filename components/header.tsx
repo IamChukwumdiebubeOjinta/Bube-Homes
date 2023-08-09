@@ -36,11 +36,11 @@ const Header: FC<HeaderProps> = ({ hamburger }) => {
         </div>
         <Link
           href="/"
-          className="flex flex-row items-center justify-center gap-[0.5rem]"
+          className="flex flex-row items-center justify-center gap-[0.5rem] cursor-default"
         >
           <img
             className="w-[2.75rem] h-[2.75rem]"
-            alt=""
+            alt="logo"
             src="/houseline.svg"
           />
           <div className="flex flex-col items-center justify-center text-primary-500">

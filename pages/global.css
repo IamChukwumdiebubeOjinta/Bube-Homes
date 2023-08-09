@@ -36,6 +36,15 @@ body {
   color: white;
 }
 
+.ant-input-wrapper .ant-input-group {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.ant-input-wrapper .ant-input-group input{
+  height: 27px;
+}
+
 
 @keyframes scale-up {
   0% {

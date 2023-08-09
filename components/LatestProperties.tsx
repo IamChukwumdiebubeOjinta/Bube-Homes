@@ -1,18 +1,18 @@
 import type { NextPage } from "next";
 import LatestRentCard from "./latest-rent-card";
 
-const RentPropertiesWrapper2: NextPage = () => {
+const LatestProperties: NextPage = () => {
   return (
     <div className="self-stretch flex flex-col py-[5.38rem] px-[0rem] items-center justify-start gap-[2.44rem] text-center text-[2.5rem] text-primary-800 font-body-regular-600">
       <div className="self-stretch flex flex-col items-center justify-start gap-[2.5rem] max-w-[false]">
         <div className="w-[43rem] flex flex-col items-center justify-start gap-[1.5rem] max-w-[false] lg:max-w-[95%] md:self-stretch md:w-auto">
           <div className="self-stretch relative leading-[48px] font-semibold">
-            Latest Properties of Rent
+            Explore Your Options
           </div>
           <div className="self-stretch relative text-[1.25rem] leading-[28px] text-lightslategray">
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia curae; Proin sodales ultrices nulla blandit
-            volutpat.
+            Renting is great, but maybe you’re thinking about buying a home
+            instead. We want you to find the right place. Check out favorite
+            destinations to own a home.
           </div>
         </div>
         <div className="self-stretch flex flex-row flex-wrap items-start justify-center gap-[2.5rem] text-left text-[1rem] text-gray-white">
@@ -31,4 +31,4 @@ const RentPropertiesWrapper2: NextPage = () => {
   );
 };
 
-export default RentPropertiesWrapper2;
+export default LatestProperties;

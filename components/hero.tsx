@@ -37,8 +37,8 @@ const Hero: NextPage = () => {
             Find Your Dream Home
           </div>
           <span className="self-stretch italic relative text-[1.25rem] leading-[28px] font-body-regular-600 text-primary-50">
-            "Helping People find their perfect fit by finding a home that’s
-            perfect for you."
+            "Helping you find a perfect fit by finding a home that’s perfect for
+            you."
           </span>
         </div>
         <div className="self-stretch flex flex-col items-center justify-start gap-[1.06rem] text-left text-[1rem] text-primary-700 font-body-regular-600">
