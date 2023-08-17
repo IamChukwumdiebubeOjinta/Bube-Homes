@@ -1,9 +1,6 @@
 import type { NextPage } from "next";
 import { useState } from "react";
 import "antd/dist/antd.min.css";
-import { Menu, Dropdown, Button, Input } from "antd";
-import { DownOutlined, SearchOutlined } from "@ant-design/icons";
-import SearchModal from "../helpers/SearchModal";
 import Search from "antd/lib/input/Search";
 
 const Hero: NextPage = () => {
@@ -22,7 +19,7 @@ const Hero: NextPage = () => {
         src="/houseline.svg"
       />
     ),
-    placeholder: "Enter an address...",
+    placeHolder: "Enter an address...",
     className: "hero-search placeholder:italic",
   };
 
