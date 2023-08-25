@@ -18,6 +18,10 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="description"
           content="Find Affordable Housing with Bube's Home"
         />
+        <link
+          href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css"
+          rel="stylesheet"
+        />
       </Head>
       <section>
         <Header />

@@ -1,6 +1,9 @@
 import { SearchOutlined } from "@ant-design/icons";
 import { Input } from "antd";
 import type { NextPage } from "next";
+import Map from "../../components/maps";
+
+const MAPBOX_ACCESS_TOKEN = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN;
 
 const HomeLayout: NextPage = () => {
   const saleOptions = {
@@ -30,6 +33,7 @@ const HomeLayout: NextPage = () => {
       },
     ],
   };
+
   return (
     <div className="relative bg-gray-white w-full h-[70vh] flex flex-col flex-1 items-center justify-start">
       <nav className="self-stretch bg-slate-200 h-[4.6rem] flex flex-row py-[1.38rem] px-[5rem] box-border items-center justify-start sticky w-full top-[0] z-[2] text-center text-[1.5rem] text-primary-500 font-body-regular-600 lg:pl-[2.5rem] lg:pr-[2.5rem] lg:box-border md:pl-[1.5rem] md:pr-[1.5rem] md:box-border gap-4">
@@ -58,7 +62,7 @@ const HomeLayout: NextPage = () => {
         </div>
       </nav>
       <div className="flex flex-1 w-full">
-        <div className="flex-[0.6]">Bad</div>
+        <div className="flex-[0.6]"><Map /></div>
         <div className="flex-[0.4]">Cards</div>
       </div>
     </div>
